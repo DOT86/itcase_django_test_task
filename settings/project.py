@@ -4,6 +4,7 @@
 # PROJECT
 
 PROJECT_NAME = 'itcase_django_test_task'
+USER_NAME = 'postgres'
 
 # ****************************************************************
 # ITCASE
