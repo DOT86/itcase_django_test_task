@@ -6,6 +6,11 @@ django-rq
 django>=3.2,<4
 djangorestframework
 drf-extensions
+drf-jwt==1.19.2
+drf-nested-routers==0.93.5
+drf-yasg==1.21.7
+drf-writable-nested==0.7.0
 
 pillow
 psycopg2-binary
+psycopg2==2.9.9

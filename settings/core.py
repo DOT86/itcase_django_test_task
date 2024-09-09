@@ -3,7 +3,7 @@
 # Main settings for project
 
 from . import BASE_DIR
-from .project import PROJECT_NAME
+from .project import PROJECT_NAME, USER_NAME
 
 # A list of all the people who get code error notifications
 ADMINS = [('ITCase', 'error@itcase.pro')]
@@ -35,6 +35,7 @@ INSTALLED_APPS = [
 
     # should be last for overridings
     'django.contrib.admin',
+    'catalog',
 ]
 
 # A list of middleware to use
@@ -75,7 +76,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'NAME': PROJECT_NAME,
         'PORT': 5432,
-        'USER': PROJECT_NAME,
+        'USER': USER_NAME,
     }
 }
 
